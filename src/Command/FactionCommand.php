@@ -43,6 +43,9 @@ use ShockedPlot7560\FactionMaster\Utils\Utils;
 use function count;
 
 class FactionCommand extends BaseCommand {
+	public function getPermission(){
+        return null;
+        }
 	protected function prepare(): void {
 		foreach (CommandManager::getCommands() as $command) {
 			$this->registerSubCommand($command);
