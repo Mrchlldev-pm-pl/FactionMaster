@@ -77,10 +77,10 @@ power-staying-online-time: 0
 # number of power gained every x seconds (defined by the line above)
 power-staying-online-number: 1
 
-default-home-limit: 2
-default-claim-limit: 2
-default-player-limit: 2
-default-ally-limit: 2
+default-home-limit: 50
+default-claim-limit: 20
+default-player-limit: 20
+default-ally-limit: 20
 # PUBLIC: 0  /  PRIVATE: 1  /  INVITATION: 2
 default-faction-visibility: 0
 default-faction-xp: 0
